@@ -23,7 +23,10 @@ li a:hover {background-color: grey;}
 </ul>
   <div class="w3-container w3-teal">
     <h1 style="text-align:center;"> Ruby Tchou</h1>
-    <img src= "zzz.png" style="width:360px; height:240px; text-align:center;">
+    <p style="text-align:center;"><img src="zzz.png" width="150" height="100" name="image_name"
+onmouseover="image_name.width='480';image_name.height='360';"
+onmouseout="image_name.width='360';image_name.height='240';" /></p>
+
   </div>
 <head>
 <style>
@@ -55,5 +58,23 @@ div {background-color: lightblue; color: black; margin:20px 0 20px 0; padding:20
 src="https://www.youtube.com/embed/LYN6DRDQcjI?autoplay=1" frameborder="0" allowfullscreen>
 </iframe>
 </div>
+
+<div id="videoal">
+<table>
+    <tr>
+        <td>
+            <video width="560" height="315" controls>
+                <source src="https://www.youtube.com/embed/LYN6DRDQcjI?autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </video>
+       </td>
+       <td>
+           <video width="560" height="315" controls>
+              <source src="https://www.youtube.com/embed/CID-sYQNCew" frameborder="0" allowfullscreen></iframe>
+           </video>
+       </td>
+    </tr>
+</table>
+</div>
+
 </body>
 </html>
